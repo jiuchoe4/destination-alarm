@@ -11,10 +11,24 @@ import GooglePlaces
 
 
 class AppDelegate: NSObject, UIApplicationDelegate {
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        GMSServices.provideAPIKey("GOOGLE_API_KEY")
-        GMSPlacesClient.provideAPIKey("GOOGLE_API_KEY")
-        return true
+        
+        var keys: NSDictionary?
+
+        if let path = Bundle.main.path(forResource: "Keys", ofType: "plist") {
+                keys = NSDictionary(contentsOfFile: path)
+            }
+        if let dict = keys {
+            let googlecloudkey = dict["googlecloudapi"] as? String
+            GMSServices.provideAPIKey("\(String(describing: googlecloudkey))")
+            GMSPlacesClient.provideAPIKey("\(String(describing: googlecloudkey))")
+            return true
+               // Initialize Parse.
+               // Parse.setApplicationId(applicationId!, clientKey: clientKey!)
+           }
+        return false
     }
 }
 

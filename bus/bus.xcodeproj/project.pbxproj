@@ -17,6 +17,7 @@
 		BF8C591025E0A57B0045E7CA /* busApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C590F25E0A57B0045E7CA /* busApp.swift */; };
 		BF8C591425E0A57D0045E7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8C591325E0A57D0045E7CA /* Assets.xcassets */; };
 		BF8C591725E0A57D0045E7CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8C591625E0A57D0045E7CA /* Preview Assets.xcassets */; };
+		BF8D37B125E1B34C00A49060 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8D37B025E1B34C00A49060 /* Keys.plist */; };
 		BFB6581025E0D333002EB184 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = BFB6580F25E0D333002EB184 /* Podfile */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		BF8C591325E0A57D0045E7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF8C591625E0A57D0045E7CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF8C591825E0A57D0045E7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8D37B025E1B34C00A49060 /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		BFB6580F25E0D333002EB184 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E118A918E444480666A611F1 /* Pods-bus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bus.debug.xcconfig"; path = "Target Support Files/Pods-bus/Pods-bus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +100,7 @@
 				BF8C591325E0A57D0045E7CA /* Assets.xcassets */,
 				BF8C591825E0A57D0045E7CA /* Info.plist */,
 				BF8C591525E0A57D0045E7CA /* Preview Content */,
+				BF8D37B025E1B34C00A49060 /* Keys.plist */,
 			);
 			path = bus;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8D37B125E1B34C00A49060 /* Keys.plist in Resources */,
 				BF8C591725E0A57D0045E7CA /* Preview Assets.xcassets in Resources */,
 				BF8C591425E0A57D0045E7CA /* Assets.xcassets in Resources */,
 			);
