@@ -9,13 +9,11 @@ import SwiftUI
 import GoogleMaps
 import GooglePlaces
 
-let GOOGLE_CLOUD_API = ProcessInfo.processInfo.environment["GOOGLE-CLOUD-API"]
-
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        GMSServices.provideAPIKey(GOOGLE_CLOUD_API!)
-        GMSPlacesClient.provideAPIKey(GOOGLE_CLOUD_API!)
+        GMSServices.provideAPIKey("GOOGLE_API_KEY")
+        GMSPlacesClient.provideAPIKey("GOOGLE_API_KEY")
         return true
     }
 }
