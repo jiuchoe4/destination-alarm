@@ -9,11 +9,10 @@ import SwiftUI
 import GoogleMaps
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            GoogleMapsView()
-                .edgesIgnoringSafeArea(.top)
-                .frame(height: 300)
+        NavigationView {
+            GoogleMapView()
         }
     }
 }

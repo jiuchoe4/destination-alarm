@@ -52,9 +52,9 @@
       </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
-            key = "GOOGLE-CLOUD-API"
-            value = "AIzaSyDDyqgjZuw8dp81Z5wWbx7jpomfK6jFxUM"
-            isEnabled = "YES">
+            key = ""
+            value = ""
+            isEnabled = "NO">
          </EnvironmentVariable>
       </EnvironmentVariables>
    </LaunchAction>
